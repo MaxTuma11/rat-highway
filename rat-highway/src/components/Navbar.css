@@ -1,0 +1,41 @@
+nav {
+    width: 100%;
+    background-color: black;
+    padding: 1rem 2rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 12px 12px;
+    border-left: 3px solid rgb(57, 187, 6);
+    border-right: 3px solid rgb(57, 187, 6);
+    border-bottom: 3px solid rgb(57, 187, 6);
+
+    width: 70%;         /* shrink on mobile */
+    max-width: 1500px;   /* don’t exceed desktop size */
+    text-align: center;
+  }
+  
+nav h1 {
+    color: rgb(57, 187, 6);
+    font-weight: bold;
+    font-family: 'Lucida Console', monospace;
+  
+    /* Responsive font size */
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    margin: 0;
+  }
+
+nav #rat1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+  
+nav #rat2{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+}
+  

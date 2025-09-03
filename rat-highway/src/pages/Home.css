@@ -1,0 +1,37 @@
+html, body, #root, .homepage {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* prevent sideways scroll */
+  }
+  
+  /* Page container */
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+  }
+  
+  /* Centered box */
+  .maincont {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    border-color: rgb(57, 187, 6);
+    border-style: solid;
+  
+    /* Responsive sizing */
+    width: 70%;         /* shrink on mobile */
+    max-width: 1500px;   /* don’t exceed desktop size */
+    min-height: 1500px;  /* keeps it visible on small screens */
+    text-align: center;
+  }
+  
+  /* Text scaling */
+  .maincont h1 {
+    font-size: clamp(1rem, 2.5vw, 2rem); /* scales with screen size */
+  }
