@@ -23,19 +23,19 @@ nav h1 {
     /* Responsive font size */
     font-size: clamp(1.5rem, 5vw, 3rem);
     margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    white-space: nowrap;
   }
 
-nav #rat1{
-    display: flex;
-    justify-content: left;
-    align-items: left;
-
+.title-container {
+  position: relative;
+  display: inline-block;
 }
-  
-nav #rat2{
-    display: flex;
-    justify-content: right;
-    align-items: right;
 
+.background-gif {
+  width: 100%;
+  height: auto;
 }
-  
