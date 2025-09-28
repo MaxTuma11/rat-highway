@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import test from '../assets/backgifteszt.gif'
+import test from '../assets/ratmovin.gif'
 
 const Navbar = () => {
   return (

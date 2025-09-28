@@ -17,7 +17,6 @@ html, body, #root, .homepage {
   .maincont {
     background-color: black;
     color: white;
-    padding: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 12px;

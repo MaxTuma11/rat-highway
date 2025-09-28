@@ -1,6 +1,5 @@
 nav {
     background-color: black;
-    padding: 1rem 2rem; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,4 +36,6 @@ nav h1 {
 .background-gif {
   width: 100%;
   height: auto;
+  padding: 0;
+  margin: 0;
 }
